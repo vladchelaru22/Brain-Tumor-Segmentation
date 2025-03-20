@@ -77,7 +77,7 @@ def exponential(img_in,L):
     return img_out
 
 
-cale=r'C:\Users\kellyy\Desktop\poze_proiect'
+cale=r'' #Original Photos Path
 files = os.listdir(cale) #lista de obiecte din calea specificata mai sus
 for i in files:          #se citeste fiecare imagine
     cale_img = os.path.join(cale, i)
